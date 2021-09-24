@@ -1,7 +1,14 @@
-// var userName = prompt("Enter your name");
-// alert("Welcome " + userName);
+var btnReference=document.querySelector('#btn-primary');
+var inputReference=document.querySelector('#input-txt');
 
-var btnReference = document.querySelector('.btn');
-btnReference.addEventListener('click',()=>{
-console.log('CLICKED');
-})
+function myScript(event)
+{
+    console.log(event.target.value);
+}
+
+inputReference.addEventListener('input',myScript);
+
+
+
+
+

@@ -1,12 +1,13 @@
-var btnReference=document.querySelector('#btn-primary');
-var inputReference=document.querySelector('#input-txt');
+var btn=document.querySelector('#btn-primary');
+var input=document.querySelector('#input-txt');
+var output=document.querySelector('#output');
 
-function myScript(event)
+function myScript()
 {
-    console.log(event.target.value);
+    output.innerText=input.value;
 }
 
-inputReference.addEventListener('input',myScript);
+btn.addEventListener('click',myScript);
 
 
 

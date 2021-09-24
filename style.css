@@ -1,0 +1,29 @@
+#heading-main {
+  text-align: center;
+}
+
+#input-txt {
+  width: 60%;
+  margin: auto;
+  display: block;
+  min-height: 20vh;
+  font-size: large;
+}
+
+#btn-primary {
+  display: block;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+#output {
+  display: block;
+  margin: auto;
+  border: 1px solid black;
+  width: 60%;
+  min-height: 10vh;
+  max-height: 20vh;
+  overflow: scroll;
+  margin-top: 3rem;
+  font-size: large;
+}

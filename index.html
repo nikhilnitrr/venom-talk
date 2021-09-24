@@ -5,17 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="style.css" rel="stylesheet" />
-    <title>Venom talk</title>
+    <title>Valyrian talk</title>
   </head>
+
   <body>
-    <h1 id="heading-main">venom talk</h1>
-    <textarea id="input-txt" placeholder="Enter your text here"></textarea>
-    <br />
-    <button id="btn-primary">translate</button>
+    <nav id="nav-bar">
+      <h1 id="heading-main">valyrian talk</h1>
+    </nav>
 
-    <div id="output"></div>
+    <main>
+      <textarea
+        id="input-txt"
+        placeholder="Enter your text here  which you want to translate to valyrian language"
+      ></textarea>
+      <br />
+      <div id="btn-container">
+        <button id="btn-primary">translate</button>
+      </div>
+      <div id="indicator">translation will come here 👇</div>
+      <div id="output"></div>
+    </main>
 
-    <!-- Do not remove below code -->
+    <footer id="footer">
+      <div>My online presence</div>
+      <div id="link-container">
+        <a class="link-primary" href="">github</a>
+        <a class="link-primary" href="">linkedin</a>
+        <a class="link-primary" href="">instagram</a>
+      </div>
+    </footer>
+
+    <!-- Do not remove below JavaScript code -->
     <script src="script.js"></script>
   </body>
 </html>

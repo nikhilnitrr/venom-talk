@@ -1,4 +1,4 @@
-# venom-talk 🗡️
+# valyrian-talk 🗡️
 
 👉 A web application that converts english language text to valyrian language
 
